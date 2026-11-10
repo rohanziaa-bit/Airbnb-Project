@@ -1,0 +1,12 @@
+sources:
+  - name: airbnb
+    description: "This source contains the airbnb data for the project"
+    schema: staging
+    tables:
+      - name: LISTINGS
+      - name: BOOKINGS
+      - name: HOSTS
+
+  - name: stripe
+    tables:
+      - name: payments
